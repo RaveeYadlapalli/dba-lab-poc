@@ -1,5 +1,6 @@
 -- DDL for Local PostgreSQL POC
 -- This matches the structure you'll eventually use in Redshift
+-- Updated for Jenkins test
 CREATE SCHEMA IF NOT EXISTS dba_poc;
 
 CREATE TABLE IF NOT EXISTS dba_poc.transactions (
